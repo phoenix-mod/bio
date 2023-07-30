@@ -18,7 +18,7 @@ body {
 }
 
 .card {
-  max-width: 540px;
+  max-width: 650px;
   margin: auto;
   overflow-y: auto;
   position: relative;
@@ -33,7 +33,7 @@ body {
 }
 
 .card[data-state="#about"] {
-  height: 650px;
+  height: 750px;
 }
 .card[data-state="#about"] .card-main {
   padding-top: 0;
@@ -68,12 +68,12 @@ body {
 }
 .card.is-active .card-fullname {
   bottom: 18px;
-  font-size: 19px;
+  font-size: 20px;
 }
 .card.is-active .card-jobtitle {
   bottom: 16px;
   letter-spacing: 1px;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .card-header {
@@ -121,7 +121,7 @@ body {
 .card-fullname {
   position: absolute;
   bottom: 0;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 700;
   text-align: center;
   white-space: nowrap;
@@ -132,7 +132,7 @@ body {
 .card-jobtitle {
   position: absolute;
   bottom: 0;
-  font-size: 11px;
+  font-size: 20px;
   white-space: nowrap;
   font-weight: 500;
   opacity: 0.7;
@@ -153,7 +153,7 @@ body {
 
 .card-subtitle {
   font-weight: 700;
-  font-size: 13px;
+  font-size: 20px;
   margin-bottom: 8px;
 }
 
@@ -164,7 +164,7 @@ body {
 .card-desc {
   line-height: 1.6;
   color: #636b6f;
-  font-size: 14px;
+  font-size: 30px;
   margin: 0;
   font-weight: 400;
   font-family: "DM Sans", sans-serif;
@@ -217,7 +217,7 @@ body {
       -ms-user-select: none;
           user-select: none;
   background: 0;
-  font-size: 13px;
+  font-size: 20px;
   border: 0;
   padding: 15px 5px;
   cursor: pointer;
